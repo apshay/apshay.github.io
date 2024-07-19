@@ -1,4 +1,9 @@
 import './globals.css';
+import type { Viewport } from 'next'
+ 
+export const viewport: Viewport = {
+  themeColor: '#0E1011',
+}
 
 export const metadata = {
   title: 'Aiden Shay',
