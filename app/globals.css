@@ -52,7 +52,7 @@ body {
   -webkit-font-smoothing: "Roboto", sans-serif;
   -moz-osx-font-smoothing: "Roboto", sans-serif;
   font-style: normal;
-  background-color: var(--bg-shade);
+  background: var(--bg-shade);
 }
 h1,
 h2,
