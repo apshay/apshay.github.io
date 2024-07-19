@@ -16,8 +16,6 @@
   --offwhite: #b8b8b8;
 }
 
-/* Section Titles */
-/* Skills & About Me */
 .section--title {
   color: var(--heading-color);
   font-size: 40px;
@@ -28,14 +26,6 @@
   display: flex;
   align-items: flex-start;
 }
-/* Portfolio, Testimonial & Contact Me */
-.sub--title {
-  color: var(--heading-color);
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 24px;
-}
-
 
 @-webkit-keyframes sectionTitleAnimation {
   0%{background-position:50% 30%}
@@ -46,6 +36,12 @@
   0%{background-position:50% 30%}
   50%{background-position:50% 80%}
   100%{background-position:50% 30%}
+}
+.section--heading {
+  color: var(--heading-color);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77px;
 }
 
 /* Section Titles Ends */
@@ -243,12 +239,6 @@ h2 {
   opacity:0;
   line-height: 1.2em;
 }
-.hero--section-description {
-  color: var(--primary);
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 36px;
-}
 .hero--section--img {
   display: flex;
 }
@@ -344,19 +334,30 @@ h2 {
 
 
 /* Skills Section Style */
+
+@keyframes SkillsAnimation {
+  0%{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-50px);
+  }
+  100%{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+  }
+}
+
 .skills--animation.hide {
   opacity: 0;
-  transition: all .5s;
-  filter: blur(5px);
-  transform: translateX(-50%);
   color: #39009c;
 }
 
 .skills--animation.show {
+  animation: SkillsAnimation .5s ease;
   opacity: 1;
-  filter: blur(0);
-  transform: translateX(0);
 }
+
 .skills--section {
   display: flex;
   padding: 60px 22px 149.33px;
@@ -364,12 +365,6 @@ h2 {
   justify-content: center;
   align-items: center;
   gap: 70.667px;
-}
-.section--heading {
-  color: var(--heading-color);
-  font-size: 64px;
-  font-weight: 700;
-  line-height: 77px;
 }
 .skills--section--container {
   width: 100%;
@@ -397,15 +392,12 @@ h2 {
   margin-bottom: 20px;
 }
 .section--heading.skills--animation.show {
-  font-size: 64px;
-  font-weight: 700;
-  line-height: 77px;
   background: linear-gradient(to bottom, #1100ff, #ff1111);
   background-size: 400% 400%;
   background-clip: text;
   color: transparent;
   -webkit-animation: sectionTitleAnimation 20s ease infinite;
-  animation: sectionTitleAnimation 20s ease infinite;
+  animation: sectionTitleAnimation 20s ease infinite, SkillsAnimation .5s ease;
 }
 
 .skills--section--description {
@@ -474,9 +466,6 @@ h2 {
 }
 
 .section--heading.experience--animation.show {
-  font-size: 64px;
-  font-weight: 700;
-  line-height: 77px;
   background: linear-gradient(to bottom, #15ff00, #00aaff);
   background-size: 400% 400%;
   background-clip: text;
@@ -616,9 +605,6 @@ h2 {
 }
 
 .section--heading.project--animation.show {
-  font-size: 64px;
-  font-weight: 700;
-  line-height: 77px;
   background: linear-gradient(to bottom, #ff83dc, #00aaff);
   background-size: 400% 400%;
   background-clip: text;
@@ -817,7 +803,6 @@ h2 {
     padding-bottom: 200px;
   }
   .hero--section--title,
-  .hero--section-description,
   .footer--content {
     text-align: center;
     width:100%;
@@ -893,6 +878,34 @@ h2 {
   .experience--company,
   .experience--date {
     font-size: .8rem;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .hero--section--title,
+  .footer--content {
+    text-align: center;
+    width:100%;
+    min-width: 350px;
+  }
+  .section--title {
+    font-size: 2rem;
+  }
+  .navbar{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .experience {
+    width: 240px;
+  }
+  .hero--section--title--color {
+    font-size: 2.2rem;
+  }
+  .skills--category--heading {
+    font-size: 2.5rem;
+  }
+  .section--heading {
+    font-size: 3rem;
   }
 }
 
