@@ -105,14 +105,20 @@ h2 {
   left: 0;
   right: 0;
   z-index: 10000;
-  transition: all 2s ease; /* Transition effect for box-shadow */
+  transition: all 2s ease;
   box-shadow: 0 0 0 1px rgba(20, 20, 20, 0);
   background-color: transparent;
 }
 .navbar-outline {
-  box-shadow: 0 0 0 1px rgb(26, 26, 26); /* Simulate outline with box-shadow */
-  backdrop-filter: blur(20px);
-  background-color: var(--nav-bar-color);
+  box-shadow: 0 0 0 1px rgb(26, 26, 26);
+  background-color: var(--bg-shade);
+}
+
+@supports (backdrop-filter: blur(20px)) {
+  .navbar-outline {
+    backdrop-filter: blur(20px);
+    background-color: var(--nav-bar-color);
+  }
 }
 .navbar--nameAndLogo > *{
   display: inline-block;
@@ -619,6 +625,7 @@ h2 {
   color: transparent;
   -webkit-animation: sectionTitleAnimation 20s ease infinite;
   animation: sectionTitleAnimation 20s ease infinite, projectAnimation .5s ease;
+  text-align: center;
 }
 
 .projects--section--container {
@@ -814,7 +821,7 @@ h2 {
   .footer--content {
     text-align: center;
     width:100%;
-    min-width: 450px;
+    min-width: 400px;
   }
   .skills--section--container,
   .footer--content--container {
@@ -877,7 +884,7 @@ h2 {
   .experience {
     padding: 10px;
     gap: 8px;
-    width: 300px;
+    width: 275px;
   }
 
   .experience--title {
