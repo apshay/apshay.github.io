@@ -41,6 +41,10 @@
           "img": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
         },
         {
+          "name": "NextJs",
+          "img": "/nextjs-icon.png"
+        },
+        {
           "name": "Tailwind",
           "img": "https://tailwindcss.com/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg"
         },
