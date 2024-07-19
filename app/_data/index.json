@@ -1,0 +1,110 @@
+{
+  "skills": [
+    {
+      "title": "Languages",
+      "skills": [
+        {
+          "name": "HTML",
+          "img": "https://cdn-icons-png.flaticon.com/512/1216/1216733.png"
+        },
+        {
+          "name": "CSS",
+          "img": "/cssLogo.svg"
+        },
+        {
+          "name": "JavaScript",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/900px-JavaScript-logo.png?20120221235433"
+        },
+        {
+          "name": "TypeScript",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg"
+        },
+        {
+          "name": "Python",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
+        },
+        {
+          "name": "C++",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg"
+        },
+        {
+          "name": "Java",
+          "img": "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg"
+        }
+      ]
+    },
+    {
+      "title": "Technologies",
+      "skills":[
+        {
+          "name": "React",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+        },
+        {
+          "name": "Tailwind",
+          "img": "https://tailwindcss.com/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg"
+        },
+        {
+          "name": "Strapi",
+          "img": "https://cdn.worldvectorlogo.com/logos/strapi-2.svg"
+        },
+        {
+          "name": "Tensorflow",
+          "img": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/google-tensorflow-icon.png"
+        },
+        {
+          "name": "PyTorch",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/1/10/PyTorch_logo_icon.svg"
+        },
+        {
+          "name": "Git",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg"
+        },
+        {
+          "name": "Docker",
+          "img": "/docker-mark-blue.png"
+        }
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "title": "Undergraduate Research Intern",
+      "company": "UF Department of Chemical Engineering",
+      "date": "May 2023 - August 2023",
+      "description": "Streamlined research process by updating system programs and implementing new features and libraries such as OpenBabel and custom scripts.",
+      "skills":["Python", "Perl", "Bash", "Linux", "Php", "CSS"],
+      "img": "/ufCHE.png"
+    },
+    {
+      "title": "Undergraduate Research Assistant",
+      "company": "UF Department of Chemical Engineering",
+      "date": "January 2023 - May 2023",
+      "description": "Contributed to Pfizer research about catalyzing different molecules on various surfaces without surface poisoning. Presented research to Pfizer representatives.",
+      "skills":["Linux", "Bash", "Excel"],
+      "img": "/ufCHE.png"
+    }
+  ],
+  "projects": [
+    {
+      "title": "CASMM Website",
+      "description": "Tool to help educational institutions teach electrical engineering circuit concepts.",
+      "skills": ["React", "CSS", "Strapi", "Docker"],
+      "date": "August 2023 - December 2023",
+      "img": "/CASMMLogo.png",
+      "code-link": "https://github.com/Group-8A/Sapphire-Project09-8a",
+      "webapp-link": "https://www.casmm.org/"
+    },
+    {
+      "title": "AlphaZero Chess AI",
+      "description": "AI model following the AlphaZero AI algorithm. Capable of self-training and surpassing 1700 elo.",
+      "skills": ["Python", "Pytorch"],
+      "date": "January 2024 - April 2024",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/5/52/Chess_Programming.svg",
+      "code-link": "",
+      "webapp-link": ""
+    }
+  ],
+  "titles": ["Full Stack Developer", "Software Engineer", "UI/UX Developer", "ML Engineer"],
+  "gradients": ["linear-gradient(to bottom, #FF512F, #DD2476)", "linear-gradient(to bottom, #4287f5, #42f572)", "linear-gradient(to bottom, #6908d1, #c700c0)"]
+}
