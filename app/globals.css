@@ -224,6 +224,7 @@ h2 {
   line-height: 1em;
   z-index: 1000;
   min-width: 750px;
+  will-change: 'transform, content';
 }
 
 .hero--section--title--color.hero--section--animation{
