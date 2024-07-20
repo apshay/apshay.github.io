@@ -594,9 +594,8 @@ h2 {
   }
 }
 .project--animation.hide{
-  display: flex;
-  color: #ff83dc;
   opacity: 0;
+  color: #ff83dc;
 }
 
 .project--animation.show{
@@ -640,7 +639,6 @@ h2 {
   min-height: 300px;
   flex-basis:0;
   width: 100%;
-  transition: 0.3s ease-in-out;
 }
 
 .project--content{
