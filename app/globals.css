@@ -504,6 +504,7 @@ h2 {
   justify-content: left;
   align-items: center;
   gap: 12px;
+  width: 100%
 
 }
 .experience--header--text {

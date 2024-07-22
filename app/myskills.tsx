@@ -15,7 +15,7 @@ export default function MySkills() {
             <div className="skills--list">
               {item?.skills?.map((skill, index2) => (
                 <div key={index2} className="skill">
-                  <img className="skill--img" src={skill.img} alt={skill.name} />
+                  <img className="skill--img" src={skill.img} alt={"Aiden Shay's " + skill.name + "Skill"} />
                   <p className="skill--name">{skill.name}</p>
                 </div>
               ))}
