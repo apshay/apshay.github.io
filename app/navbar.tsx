@@ -119,7 +119,7 @@ function Navbar() {
         <ul>
         <li>
             <a
-              href="https://drive.google.com/file/d/1MRfFJ75kCLC6cofGcE3pHstzaPoA6IMG/view?usp=sharing"
+              href="https://drive.google.com/file/d/1IN7RXxF_I80Wf1Fr8YSODuabtv098jCg/view?usp=sharing"
               className="navbar--content"
               target="_blank"
               rel="noreferrer"
